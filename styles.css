@@ -1,0 +1,68 @@
+body {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 12px;
+  background-image: url("imgs/wg.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 100% 100%;
+}
+
+h2 {
+  font-size: 72px;
+  color: #1f1d1c;
+  text-shadow: 2px 2px darkgray;
+}
+
+h3 {
+  font-size: 58px;
+  color: #1f1d1c;
+  text-shadow: 2px 2px darkgray;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+p {
+  text-align: center;
+  color: #1f1d1c;
+  font-size: 28px;
+  text-shadow: 2px 2px darkgray;
+}
+
+.navbar-brand img {
+  height: 50px;
+  margin-left: -15px;
+  margin-top: -15px;
+
+}
+
+.userinfo {
+  padding-bottom: 20px;
+}
+
+
+.form-group {
+  padding: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #1f1d1c;
+  font-size: 22px;
+  text-shadow: 0.5px 0.5px darkgray;
+}
+
+.radios {
+  padding-left: 80px;
+}
+
+@media(min-width:767px){
+.form-group {
+padding-left: 120px;
+width: 80% !important;
+}
+}
+
+
+#singlebutton {
+  background-color: #72c9e0;
+}

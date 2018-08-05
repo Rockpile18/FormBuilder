@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img alt="Will Builder Logo" src="imgs/Mountain_icon.png">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Forms</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<body>
+  <h3 class="text-center userinfo">User Information</h3>
+
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="name">Full Name</label>
+      <div class="col-sm-10">
+        <input type="name" class="form-control" id="name" placeholder="Enter Name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-sm-2 control-label" for="birthdate">Birth Date</label>
+      <div class="col-sm-10">
+        <input class="form-control" type="date" id="birthdate">
+      </div>
+    </div>
+
+    <fieldset class="form-group radios col-sm-2">
+      <h4>Gender</h4>
+      <div class="form-check col-sm-2">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input gender" name="optionsRadios" id="male" value="option1">
+          <span style="font-size:18px;padding-left:5px;"> Male</span>
+        </label>
+      </div>
+      <div class="form-check col-sm-2">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input gender" name="optionsRadios" id="female" value="option2">
+          <span style="font-size:18px;padding-left:5px;"> Female</span>
+        </label>
+      </div>
+    </fieldset>
+
+    <div class="form-group">
+      <label for="email" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input class="form-control" type="email" placeholder="Email" id="email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="password" class="col-sm-2 col-form-label">Password</label>
+      <div class="col-sm-10">
+        <input class="form-control" type="password" placeholder="Password" id="password">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+
+
+</body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>
